@@ -1,0 +1,10 @@
+[project]
+name = "mypackage"
+description = "Minimal repoducible example for tox issue 3292"
+dynamic = ["version"]
+
+[build-system]
+requires = ["setuptools>61", "setuptools_scm[toml]>=7.0"]
+
+[tool.setuptools_scm]
+# Section presence is enough to make this work.
